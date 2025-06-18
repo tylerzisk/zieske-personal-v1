@@ -29,5 +29,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Deploy to AWS
         run: |
-          sst install
-          sst deploy --stage production --verbose
+          npx sst install
+          npx sst deploy --stage production --verbose
