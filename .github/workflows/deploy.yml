@@ -3,6 +3,8 @@ on:
   push:
     branches: main
 
+environment: production
+
 permissions:
   id-token: write
   contents: read
@@ -11,7 +13,6 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
       - name: Checkout
