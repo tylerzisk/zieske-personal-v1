@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Aside = () => (
-  <aside className="max-h-screen py-5 sticky top-0">
+  <aside className="flex flex-col items-center pb-2 lg:items-start lg:max-h-screen lg:py-5 lg:sticky top-0">
     <div className="h-[280px] w-[280px] overflow-hidden rounded-full">
       <Image
         className="mt-[-40px]"

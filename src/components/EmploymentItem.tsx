@@ -11,10 +11,8 @@ const EmploymentItem: React.FC<EmploymentItemProps> = ({
   duration,
   title,
 }) => (
-  <div className="grid grid-cols-[2fr_5fr] pt-5">
-    <div>
-      <h6 className="text-neutral-400">{duration}</h6>
-    </div>
+  <div className="grid grid-cols-[2fr_5fr] pt-5 gap-1">
+    <h6 className="text-neutral-400">{duration}</h6>
 
     <div>
       <h4 className="font-semibold">{title}</h4>
