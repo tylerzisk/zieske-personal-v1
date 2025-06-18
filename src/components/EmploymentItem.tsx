@@ -1,4 +1,4 @@
-import LinkArrow from "./link-arrow.svg";
+import LinkArrow from "../../public/link-arrow.svg";
 
 interface EmploymentItemProps {
   company: string;

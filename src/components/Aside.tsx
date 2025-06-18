@@ -1,6 +1,6 @@
 import Image from "next/image";
-import GitHubIcon from "./github-mark.svg";
-import LinkedInIcon from "./linkedin.svg";
+import GitHubIcon from "../../public/github-mark.svg";
+import LinkedInIcon from "../../public/linkedin.svg";
 
 const Aside = () => (
   <aside className="flex flex-col items-center pb-2 lg:items-start lg:max-h-screen lg:py-5 lg:sticky top-0">
