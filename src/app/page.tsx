@@ -2,7 +2,7 @@ import Aside from "@/components/Aside";
 import EmploymentItem from "@/components/EmploymentItem";
 import Summary from "@/components/Summary";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="grid p-2 lg:gap-2 lg:grid-cols-[1fr_2fr] xl:px-7.5">
       <Aside />
@@ -48,4 +48,6 @@ export default function Home() {
       </main>
     </div>
   );
-}
+};
+
+export default Home;
