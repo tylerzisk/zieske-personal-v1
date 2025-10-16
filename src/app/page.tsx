@@ -11,13 +11,21 @@ const Home = () => {
         <Summary />
 
         <EmploymentItem
+          company="Worldpay"
+          description="Working on a developer credential management platform that gives accesses to all Worldpay Enterprise APIs, leveraging Kubernetes to deploy and manage Java Spring Boot microservices. Mentoring and help guiding junior developers to Java best practices as well as company best practices for code."
+          duration="August 2025 - Present"
+          link="https://worldpay.com/"
+          title="Senior Software Engineer"
+        />
+
+        <EmploymentItem
           company="Dev Technology Group"
           description="Worked on a government contract for Homeland Security to update
               and upgrade their I-9 verification systems utilizing AWS Lambda in
               an event-driven backend that is leveraged using a React micro
               frontend. Helped teach the team how to utilize React Testing
               Library and Mock Service Worker for testing micro frontends."
-          duration="March 2025 - Present"
+          duration="March 2025 - August 2025"
           link="https://devtechnology.com/"
           title="Application Developer"
         />

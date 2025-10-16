@@ -8,7 +8,7 @@ const Aside = () => (
       <Image
         className="mt-[-40px]"
         src="/me.jpg"
-        alt="Picture of Tyler Zieske, Application Developer"
+        alt="Picture of Tyler Zieske, Senior Software Engineer"
         height={280}
         width={280}
       />
@@ -16,7 +16,7 @@ const Aside = () => (
 
     <h1 className="font-bold py-1.5">Tyler Zieske</h1>
 
-    <h3 className="font-semibold">Application Developer</h3>
+    <h3 className="font-semibold">Senior Software Engineer</h3>
 
     <div className="flex gap-1 pt-1.5">
       <a href="https://github.com/tylerzisk" target="_blank">
