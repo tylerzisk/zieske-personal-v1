@@ -35,6 +35,20 @@ const Aside = () => (
         />
       </a>
     </div>
+
+    <div className="flex gap-1 pt-1.5">
+      <a
+        href="https://cp.certmetrics.com/amazon/en/public/verify/credential/b92d946105164b259625c95575e80886"
+        target="_blank"
+      >
+        <Image
+          alt="AWS Solutions Architect Associate badge"
+          src="/aws-solutions-architect-badge.png"
+          height={80}
+          width={80}
+        />
+      </a>
+    </div>
   </aside>
 );
 
