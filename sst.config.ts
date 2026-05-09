@@ -6,7 +6,6 @@ export default $config({
     return {
       name: "tyler-personal-site",
       removal: input?.stage === "production" ? "retain" : "remove",
-      protect: ["production"].includes(input?.stage),
       home: "aws",
     };
   },

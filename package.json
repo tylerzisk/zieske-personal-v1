@@ -2,6 +2,9 @@
   "name": "tyler-personal-site",
   "version": "0.1.0",
   "private": true,
+  "engine": {
+    "node": "24.13.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
