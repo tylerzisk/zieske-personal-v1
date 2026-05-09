@@ -12,10 +12,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.2.6",
+    "next": "15.3.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "sst": "4.13.1"
+    "sst": "^4.13.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
@@ -24,8 +24,8 @@
     "@types/node": "^25.6.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^10.3.0",
-    "eslint-config-next": "16.2.6",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.3.2",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3"
   }
