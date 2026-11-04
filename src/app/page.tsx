@@ -11,10 +11,10 @@ const Home = () => {
         <Summary />
 
         <EmploymentItem
-          company="Worldpay"
-          description="Working on a developer credential management platform that gives accesses to all Worldpay Enterprise APIs, leveraging Kubernetes to deploy and manage Java Spring Boot microservices. Mentoring and help guiding junior developers to Java best practices as well as company best practices for code."
+          company="Global Payments"
+          description="Managed and oversaw a business event notification platform delivering over 120 million notifications via webhooks to merchants, on a platform leveraging Kubernetes and Spring Boot microservices. Designed and implemented a blue/green deployment upgrading our Postgres instance on AWS; migrated our in-house Redis caching to AWS ElastiCache; leveraged Anthropic’s Sonnet and Opus models for faster feature delivery and more robust debugging and troubleshooting. Mentored and helped guide junior developers to Java best practices, how to leverage AI more to make more progress in less time, and helped formulate best practices."
           duration="August 2025 - Present"
-          link="https://worldpay.com/"
+          link="https://globalpayments.com/"
           title="Senior Software Engineer"
         />
 
